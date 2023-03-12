@@ -11,3 +11,7 @@ class Clovek:
             self.jmeno,
             self.vek
         ) * kolikrat)
+
+    def __str__(self):
+        return "{} {}".format(self.jmeno, self.vek)
+

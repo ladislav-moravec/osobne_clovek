@@ -1,5 +1,6 @@
 from clovek import Clovek
 
+
 class Programator(Clovek):
 
     def __init__(self, jmeno, vek, jazyk):
